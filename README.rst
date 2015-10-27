@@ -25,9 +25,9 @@ Usage
 
     # runtime configs
     PAYDUNYA_ACCESS_TOKENS = {
-        'PAYDUNYA-MASTER-KEY': "Your PAYDUNYA master key",
-        'PAYDUNYA-PRIVATE-KEY': "Your PAYDUNYA private key",
-        'PAYDUNYA-TOKEN': "Your PAYDUNYA token"
+        'PAYDUNYA-MASTER-KEY': "YOUR PAYDUNYA MASTER KEY",
+        'PAYDUNYA-PRIVATE-KEY': "YOUR PAYDUNYA PRIVATE KEY",
+        'PAYDUNYA-TOKEN': "YOUR PAYDUNYA TOKEN"
     }
     # defaults to False
     paydunya.debug = True
