@@ -41,14 +41,14 @@ Usage
             unit_price="3000",
             total_price="6000",
             description="Best Keyboard of the 2015 year"
-        },
+        ),
         InvoiceItem(
             name="Ordinateur Lenovo L440",
             quantity=1,
             unit_price="400000",
             total_price="400000",
             description="Powerful and slim"
-        },
+        ),
     ]
     invoice = paydunya.Invoice(store)
     invoice.add_items(items)
