@@ -1,5 +1,3 @@
-.. image:: https://api.travis-ci.org/paydunya/paydunya-python.png
-
 PAYDUNYA Python Client Library
 ==============================
 
@@ -111,10 +109,9 @@ Note
 ----
 - Some of the API calls require formal approval from PAYDUNYA
 - For more information, please read the  `PAYDUNYA HTTP API`_
-- Tested on Python 2.6, 2.7, and 3+. `Build Status`_
+- Tested on Python 2.6, 2.7, and 3+.
 
 .. _PAYDUNYA HTTP API: https://paydunya.com/developers/http
-.. _Build Status: https://api.travis-ci.org/paydunya/paydunya-python.png
 
 Authors
 --------
