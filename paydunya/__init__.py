@@ -4,7 +4,7 @@ PAYDUNYA Python client library.
 Modules implemented: DirectPay, Invoice, and OPR
 """
 
-__version__ = '0.1.2'
+__version__ = '1.0.0'
 __author__ = "PAYDUNYA <paydunya@paydunya.com>"
 
 import sys
