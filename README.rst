@@ -67,7 +67,7 @@ Usage
         do_something_with_resp(response)
 
     # confirm invoice
-    invoice.confirm(response['token'])
+    invoice.confirm('YOUR_INVOICE_TOKEN')
 
 
     # PSR
