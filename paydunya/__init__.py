@@ -56,6 +56,7 @@ class Store(object):
         self.postal_address = kwargs.get('postal_address', None)
         self.phone = kwargs.get('phone', None)
         self.website_url = kwargs.get('website_url', None)
+        self.logo_url = kwargs.get('logo_url', None)
 
     @property
     def info(self):

@@ -10,7 +10,7 @@ Installation
 
     $ sudo pip install paydunya
     $ OR git clone https://github.com/paydunya/paydunya-python
-    $ cd paydunya-python; python setup.py install`
+    $ cd paydunya-python; python setup.py install
     $ nosetests tests/  # run unit tests
 
 Usage
