@@ -4,7 +4,7 @@ PAYDUNYA Python client library.
 Modules implemented: DirectPay, Invoice, and OPR
 """
 
-__version__ = '1.0.3'
+__version__ = '1.0.4'
 __author__ = "PAYDUNYA <paydunya@paydunya.com>"
 
 import sys
@@ -54,7 +54,7 @@ class Store(object):
         self.name = kwargs.get('name', None)
         self.tagline = kwargs.get('tagline', None)
         self.postal_address = kwargs.get('postal_address', None)
-        self.phone = kwargs.get('phone', None)
+        self.phone_number = kwargs.get('phone_number', None)
         self.website_url = kwargs.get('website_url', None)
         self.logo_url = kwargs.get('logo_url', None)
 
