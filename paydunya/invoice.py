@@ -17,6 +17,7 @@ class Invoice(Payment):
         """
         self.cancel_url = None
         self.return_url = None
+        self.callback_url = None
         self.description = None
         self.items = {}
         self.total_amount = 0
@@ -98,7 +99,8 @@ class Invoice(Payment):
             "custom_data": self.custom_data,
             "actions": {
                 "cancel_url": self.cancel_url,
-                "return_url": self.return_url
+                "return_url": self.return_url,
+                "callback_url": self.callback_url
             }
         }
         return self._data
