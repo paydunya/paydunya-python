@@ -23,6 +23,7 @@ class Invoice(Payment):
         self.total_amount = 0
         self.custom_data = {}
         self.taxes = {}
+        self.channels = []
         super(Invoice, self).__init__()
         if store:
             self.store = store
@@ -84,6 +85,14 @@ class Invoice(Payment):
         for item in items:
             self.add_item(item)
 
+    def add_channel(self, channel):
+        """Updates the list of payment channels in the current transaction"""
+        self.channels.append(channel)
+
+    def add_channels(self, channels):
+        for channel in channels:
+            self.add_channel(channel)
+
     @property
     def _prepare_data(self):
         """Formats the data in the current transaction for processing"""
@@ -94,6 +103,7 @@ class Invoice(Payment):
                 "taxes": self.taxes,
                 "total_amount": total_amount,
                 "description": self.description,
+                "channels": self.channels
             },
             "store": self.store.info,
             "custom_data": self.custom_data,
